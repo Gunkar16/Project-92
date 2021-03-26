@@ -1,0 +1,208 @@
+body
+{
+	background-image: url("pexels-photo-1318579.jpeg");
+	background-size: cover;
+}
+
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+	
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid ;
+border-image-source: linear-gradient(100deg, #02c4fe,#0d32fd,#e80c7d);
+border-image-slice: 1;
+padding: 10px;
+float: none;
+text-align: left;
+}
+#Welcome{
+	color:white;
+	font-family: 'Roboto Mono', monospace;
+	font-size: xx-large;
+}
+#title{
+	color:white;
+	font-size: xx-large;
+	font-family: 'Redressed', cursive;
+}
+#LOGO{
+	width: 150px;
+	height: 125px;
+	border-bottom: 10px solid;
+	border-image-source: linear-gradient(100deg, #02c4fe,#0d32fd,#e80c7d);
+	border-image-slice: 1;
+	margin: 100px;
+}
+.playernameinputs:focus, textarea:focus, select:focus{
+	outline: none;
+}
+.playernameinputs{
+	border-image-source: linear-gradient(120deg, #02c4fe,#0d32fd,#e80c7d);
+	border-image-slice: 1;
+	border-width: 10px;
+	background-color: #eee;
+}
+#buttonC{
+	background-image: linear-gradient(120deg, #02c4fe,#0d32fd,#e80c7d);
+}
+
+
+.btn-grad {background-image:linear-gradient(100deg, #02c4fe,#0d32fd,#e80c7d)}
+.btn-grad {
+   margin: 50px;
+   width: 150px;
+   height:50px;
+   text-align: center;
+   transition: 0.5s;
+   background-size: 300% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 25%;
+ }
+
+ .btn-grad:hover {
+   background-position: right center;
+   color: #fff;
+   text-decoration: none;
+ }
+.userLabel{
+	font-family: 'Space Mono', monospace;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+	margin-right: 20px;
+	background-color: #f3ec78;
+    background-image: linear-gradient(to right, #ff7214 44%, #970202 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+.turn{
+	font-family: 'Pangolin', cursive;
+	font-size: 25px;
+	color:white;
+	background-image:linear-gradient(to right, #02c4fe,#0d32fd,#e80c7d) ;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+#LeaderBoard,.playernamescore{
+	font-family: 'Fredoka One', cursive;
+	background-image:linear-gradient(to right, #ee9919 50%, #970202 55%) ;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+#lb
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid ;
+border-image-source:linear-gradient(to right, #ee9919 50%, #970202 55%);
+border-image-slice: 1;
+padding: 10px;
+float: none;
+text-align: left;
+}
+.name{
+	font-family: 'Train One', cursive;
+	color: white;
+	font-size: 25px;
+	background-image:linear-gradient(to right, #02c4fe,#0d32fd,#e80c7d) ;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+#turns{
+	width: fit-content;
+	background: white;
+	border-radius: 10px;
+	border-top: 10px solid ;
+	border-image-source: linear-gradient(100deg, #02c4fe,#0d32fd,#e80c7d);
+	border-image-slice: 1;
+	padding: 10px;
+	float: none;
+}
+.num{
+	width: 200px;;
+	border-image-source: linear-gradient(120deg, #02c4fe,#0d32fd,#e80c7d);
+	border-image-slice: 1;
+	border-width: 10px;
+	background-color: #eee;
+}
+.num:focus, textarea:focus, select:focus{
+	outline: none;
+}
+#SB {background-image:linear-gradient(100deg, #02c4fe,#0d32fd,#e80c7d)}
+#SB{
+   margin: 50px;
+   width: 150px;
+   height:50px;
+   text-align: center;
+   transition: 0.5s;
+   background-size: 300% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 25%;
+ }
+#SB:hover {
+	background-position: right center;
+	color: #fff;
+	text-decoration: none;
+}
+#multiply{
+	font-family: 'Geo', sans-serif;
+	font-size: 30px;
+}
+#aLabel{
+	font-family: 'Acme', sans-serif;
+	font-size: 30px;
+}
+.input {
+	position:relative;
+	font-size: 1.5em;
+	background: linear-gradient(100deg, #02c4fe,#0d32fd,#e80c7d);
+	padding: 3px;
+	display: inline-block;
+	border-radius: 9999em;
+	color: white;
+}
+.input:focus, textarea:focus, select:focus{
+	outline: none;
+}
+.btn:hover{
+	color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
